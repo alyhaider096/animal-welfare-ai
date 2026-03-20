@@ -1,21 +1,87 @@
-<<<<<<< HEAD
-# animlawelfare
+🐾 Animal Welfare AI
 
-animal welfare project with tensorflow lite edge device open cv firebase
+Real-Time AI-Powered Animal Rescue & Reporting Platform
 
-## Getting Started
+🚀 Overview
 
-This project is a starting point for a Flutter application.
+Animal Welfare AI is a real-time mobile platform designed to save injured and vulnerable animals faster through intelligent reporting, location tracking, and AI-assisted care.
 
-A few resources to get you started if this is your first Flutter project:
+Built using Flutter + Firebase + AI integration, the system enables users, NGOs, and volunteers to collaborate seamlessly in rescue operations.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✨ Core Features
+🐶 Real-Time Animal Reporting
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# animal-welfare-ai
-AnimalWelfare is a real-time AI-powered mobile app built with Flutter and Firebase that enables fast injured animal reporting and rescue coordination. Users upload reports with live location, shown as dynamic map pins, with secure auth and an AI chat assistant for instant pet care guidance.
->>>>>>> c3bd916ae85a960ca29f1551d19a30f8eadf4905
+Upload injured/stray animal reports instantly
+
+Attach images, descriptions, and urgency level
+
+Auto-capture live GPS location
+
+📍 Live Map Tracking
+
+Reports appear as dynamic map pins
+
+Rescue teams can view nearby cases in real-time
+
+Enables faster response and coordination
+
+🔐 Secure Authentication
+
+Firebase Authentication (Email/Google)
+
+Role-based access (users, volunteers, NGOs)
+
+🤖 AI Chat Assistant (Pet Care AI)
+
+Instant guidance for:
+
+First aid for injured animals
+
+Emergency handling steps
+
+General pet care advice
+
+Powered by AI for real-time responses
+
+🔄 Real-Time Database
+
+Firebase Firestore integration
+
+Instant updates across all users
+
+Live syncing of reports and statuses
+
+🧠 System Architecture
+Flutter App (Frontend)
+        ↓
+Firebase (Auth + Firestore + Storage)
+        ↓
+AI Layer (OpenAI / GPT Integration)
+🛠️ Tech Stack
+Layer	Technology
+Frontend	Flutter
+Backend	Firebase (Firestore, Auth, Storage)
+Maps	Google Maps API
+AI	OpenAI GPT
+State Mgmt	Provider / Riverpod (if used)
+📱 Key Screens
+
+📍 Map View with live animal reports
+
+📸 Report Submission Screen
+
+🤖 AI Chat Assistant Screen
+
+🔐 Authentication (Login/Signup)
+
+⚡ Impact
+
+⏱ Faster rescue response times
+
+🐾 Increased visibility of injured animals
+
+🤝 Better coordination between NGOs & volunteers
+
+🧠 Accessible AI-powered guidance for the public
+
+🔒 Security Note

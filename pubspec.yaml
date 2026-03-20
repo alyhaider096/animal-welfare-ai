@@ -1,0 +1,59 @@
+name: animlawelfare
+description: A Flutter project for animal welfare app
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ---------------- UI & STATE ----------------
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.3.3
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  intl: ^0.20.2
+
+  # ---------------- NETWORK ----------------
+  http: ^1.2.1
+
+  # ---------------- CAMERA & MEDIA ----------------
+  camera: ^0.11.0+2
+  image_picker: ^1.1.2
+  image: ^4.2.0
+
+  
+
+  # ---------------- MAPS ----------------
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  location: ^6.0.2
+  geocoding: ^3.0.0
+  geolocator: ^14.0.2
+  flutter_polyline_points: ^2.1.0
+  url_launcher: ^6.3.2
+
+  # ---------------- FIREBASE ----------------
+  firebase_core: ^4.2.1
+  firebase_auth: ^6.1.2
+  cloud_firestore: ^6.1.0
+  firebase_storage: ^13.0.4
+  firebase_analytics: ^12.0.4
+  firebase_messaging: ^16.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/

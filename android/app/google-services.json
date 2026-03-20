@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "542999771798",
+    "project_id": "animalwelfare-aly",
+    "storage_bucket": "animalwelfare-aly.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542999771798:android:789c7d807bbd032f57a0b7",
+        "android_client_info": {
+          "package_name": "com.example.animlawelfare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6rsospd-XeqrtmqI1ia09umjsLAYq2u4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

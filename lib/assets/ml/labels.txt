@@ -1,0 +1,8 @@
+dog_normal
+dog_injured
+dog_needs_cleaning
+cat_normal
+cat_injured
+cat_needs_cleaning
+bird_normal
+bird_injured
